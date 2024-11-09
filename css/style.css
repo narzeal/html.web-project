@@ -58,6 +58,7 @@ clr{
 }
 
 /*NavBar*/
+
 #nav-bar h1{
     float: left;
     padding: 20px;
@@ -87,11 +88,10 @@ clr{
     text-align: left;
 }
 
-#nav-bar .nav-link li a:hover{
+#nav-bar .nav-link li a:hover {
     background-color: #FFC436;
     color: #0C356A;
 }
-
 /*showcase*/
 #showcase {
     background-image: url(../images/person-2.jpg);
@@ -192,20 +192,23 @@ background-color: #FFF0CE;
 }
 .gym-info{
     padding-top: 100px;
+    margin-left: 7%;
+    width: 80%;
     height: 600px;
 }
 #about-us img{
     float: left;
-    position: relative;
-    left: 10%;
     min-height: 100%;
-    width: 45%;
+    width: 30%;
     background-image: url('../images/person-3.JPG');
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 100px;
 }
 #about-us{
     padding: 30px 40px;
-    height: fit-content;
+    height: 800px;
 }
 #about-us h2{
     display: block;
@@ -226,9 +229,9 @@ background-color: #FFF0CE;
     font-size: 20px
 }
 
-#about-us .btn:hover{
+#about-us a.btn:hover{
     background-color: #0174BE;
-    color: #dadde0;
+    color: #FFF0CE;
 }
 
 /*Footer*/
