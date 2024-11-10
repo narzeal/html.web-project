@@ -59,7 +59,7 @@ clr{
 
 /*NavBar*/
 
-#nav-bar h1{
+#nav-bar .logo{
     float: left;
     padding: 20px;
 }
@@ -108,14 +108,13 @@ clr{
     position: relative;
     top: 20%;
     left: 5%;
-
 }
 
 #showcase .showcase-content{
     display: block;
     color: white;
     width: 50%;
-    height: 100%;
+    height: 100vh;
 }
 
 #showcase .lead{
@@ -132,7 +131,6 @@ clr{
     margin: 10px 10px;
     padding: 10px 20px;
     text-align: left;
-
 }
 
 #showcase .btn{
@@ -240,5 +238,5 @@ background-color: #FFF0CE;
     background-color: #0174BE;
     text-align: center;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
 }

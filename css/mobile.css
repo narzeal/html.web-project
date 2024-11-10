@@ -1,0 +1,99 @@
+@media (max-width: 450px) {
+    
+    #nav-bar .logo{
+        float: none;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+   
+    #nav-bar .nav-link {
+        float: none;
+    }
+
+    #nav-bar .nav-link > li{
+        float: none;
+    }
+
+    #nav-bar .nav-link li a{
+    display: block;
+    padding: 5px ;
+    text-align: center;
+}
+
+/*showcase*/
+   #showcase{
+    height: 600px;
+   }
+
+   #showcase .container{
+    top: 5px;
+    left: -0.5%;
+   }
+
+   #showcase .showcase-content{
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+    margin-left: -15px;
+   }
+
+   #showcase .lead{
+    margin-bottom: 5px;
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+  }
+  
+  #showcase h2{
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+  }
+
+  #showcase .lead,h2{
+      margin: 1px 1px;
+      padding: 5px 2px;
+      text-align: left;
+  }
+
+  #showcase .btn{
+    margin-top: 20px;
+    margin-left: -2px;
+   }
+
+   /*home info*/
+
+   #home-info{
+    width: 100%;
+    height: 100%;
+   }
+   #home-info .box {
+    display: block;
+    height: 100%;
+    width: 90%;
+    top: 50px;
+    left: 10px;
+    margin-bottom: 40px;
+   }
+
+   #home-info .box p{
+    font-size: 1.1;
+    line-height: 1.2rem;
+   }
+ 
+ #home-info .box h3{
+     font-size: 1.4em;
+     padding-bottom: 10px;
+     cursor: pointer;
+   }
+   
+   #about-us{
+    height: 800px;
+    width: 100%;
+    padding: 10px 10px;
+   }
+   #about-us img{
+    display: none;
+   }
+
+}
+
